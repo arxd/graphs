@@ -1,0 +1,26 @@
+html, body {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+.Editor {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+.Connection {
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+.Connection.connected {
+	display:none;
+}
+.Connection.disconnected {
+	background-color:#fdd;
+}
